@@ -140,12 +140,14 @@ function pasarUsuarioAPremium(objetoMuchosUsuarios) {
    // Retornar el arreglo.
    // Tu código:
 
-     for(let i =0;i<objetoMuchosUsuarios.length;i++){
-      objetoMuchosUsuarios[i].esPremium = true
-     }return objetoMuchosUsuarios
-      
-}
+   for(let i=0;i<objetoMuchosUsuarios.length;i++){
+      if(objetoMuchosUsuarios[i].esPremium=true){
+          
+      }
 
+}return objetoMuchosUsuarios
+
+}
 
 function sumarLikesDeUsuario(objetoUsuario) {
    // El parámetro "objetoUsuario" tiene una propiedad llamada "posts" que es un arreglo.

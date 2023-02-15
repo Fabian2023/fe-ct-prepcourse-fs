@@ -76,16 +76,16 @@ function colors(color) {
    switch (color){
       case "blue":
          return "This is blue";
-         break;
+         
       case "red":
          return "This is red";
-         break;
+         
       case "green":
          return "This is green";
-         break;
+         
       case "orange":
          return "This is orange";
-         break;
+         
          default:
             return  "Color not found";  
                 
@@ -213,10 +213,10 @@ function tieneTresDigitos(num) {
    // Si el número recibido tiene tres dígitos retornar True.
    // Caso contrario, retornar False.
    // Tu código:
-   if(num>99 && num <1000){
-      return true
-   }return false
+   
+      return (num.toString().length==3)
 }
+
 
 function doWhile(num) {
    // Implementar una función que aumente el valor recibido en 5 hasta un límite de 8 veces.
